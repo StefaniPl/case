@@ -1,2 +1,2 @@
-# case
-Case för knowit
+# Welcome to my solution for the NerdFactsAreFun case
+
