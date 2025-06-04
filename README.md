@@ -5,5 +5,5 @@ This repo contains nerdy fun facts about movies!
 ## Steps to follow:
 
 ### Start the postgres database
-'''bash
+```bash
 docker-compose up -d
