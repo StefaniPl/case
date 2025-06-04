@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:15
+    container_name: nerdfactsarefun_postgres
+    restart: always
+    environment:
+      POSTGRES_USER: nerd_user
+      POSTGRES_PASSWORD: nerd_password
+      POSTGRES_DB: nerd_facts_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:
